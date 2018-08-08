@@ -1,0 +1,35 @@
+.jog-header {
+	background: gray;
+	width: 100vw;
+	height: 10rem;
+}
+
+.jog-header img {
+	width: 10rem;
+}
+
+.jog-header div {
+	height: 100%;
+}
+
+.jog-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jog-text-center-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.jog-test-center {
+	margin: 0 auto;
+}
+
+/*
+${".jog-header img"} {
+	height: 100%;
+}
+*/
