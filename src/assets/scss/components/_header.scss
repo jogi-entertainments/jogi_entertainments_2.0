@@ -1,11 +1,12 @@
 .jog-header {
-	background: gray;
+	background: #98dfff;
 	width: 100vw;
-	height: 10rem;
+	height: 8rem;
 }
 
-.jog-header img {
-	width: 10rem;
+#jog-header-logo {
+	width: 5rem;
+	z-index: 1;
 }
 
 .jog-header div {
@@ -22,14 +23,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	z-index: 1
 }
 
 .jog-test-center {
 	margin: 0 auto;
 }
 
-/*
-${".jog-header img"} {
-	height: 100%;
+#jog-header-shape {
+	position: absolute;
+	width: 100vw;
 }
-*/
